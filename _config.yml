@@ -2,9 +2,9 @@ title: "Project Docs"
 email: "analaura.francisco@gmail.com"
 description: "Os melhores tutoriais detalhados em um só lugar!"
 baseurl: "" # the subpath of your site, e.g. "/repo"
-url: "https://USERNAME.github.io" # replace USERNAME
+url: "https://docprojects.github.io" # replace USERNAME
 twitter_username: "USERNAME"
-github_username: "USERNAME"
+github_username: "analaurafra"
 
 theme: jekyll-theme-minimal
 
@@ -36,3 +36,6 @@ defaults:
 
 safe: true
 keep_files: ["assets"]
+
+include:
+  - ".well-known"
