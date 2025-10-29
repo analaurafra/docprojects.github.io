@@ -1,0 +1,38 @@
+title: "Project Docs"
+email: "analaura.francisco@gmail.com"
+description: "Os melhores tutoriais detalhados em um só lugar!"
+baseurl: "" # the subpath of your site, e.g. "/repo"
+url: "https://USERNAME.github.io" # replace USERNAME
+twitter_username: "USERNAME"
+github_username: "USERNAME"
+
+theme: jekyll-theme-minimal
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+permalink: /:year/:month/:day/:title/
+paginate: 5
+paginate_path: "/page:num/"
+
+exclude:
+  - "node_modules"
+  - "vendor"
+  - "Gemfile"
+  - "Gemfile.lock"
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Your Name"
+
+safe: true
+keep_files: ["assets"]
